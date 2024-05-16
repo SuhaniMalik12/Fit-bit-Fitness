@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>FitBit Fitness Club</title>
+	<link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+           <nav>
+               <a href="index.html"><img src="images/logo.jpg"></a>
+               <div class="nav-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul>
+                   <li><a href="fittness-club.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="Blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                   </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+   <h1>Contact us</h1>
+ </section>
+<!------- contact us -------->
+    
+<section class="location">
+    
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d769.8668549413699!2d75.84729122916977!3d26.78284709894899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc9d744096c1d%3A0x281fb58ae7c458e8!2sFitbit%20fitnesses%20studio!5e1!3m2!1sen!2sin!4v1628185206825!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+</section>
+        
+<section class="contact-us">
+    
+    <div class="row">
+    <div class="contact-col">
+        <div>
+        <i class="fa fa-home"></i>
+            <span>
+            <h5>QRMX+44P, Sitapura Industrial Area, Sitapura</h5>
+                <p>Jaipur, Rajasthan 302022</p>
+            </span>
+        </div>
+        <div>
+        <i class="fa fa-phone"></i>
+            <span>
+            <h5>+917976744221</h5>
+                <p>Monday to saturday, 5AM to 10PM</p>
+            </span>
+        </div>
+        <div>
+        <i class="fa fa-envelope-o"></i>
+            <span>
+            <h5>info@skagarwal485@gmail.com</h5>
+                <p>Email us your query</p>
+            </span>
+        </div>
+        </div>
+    <div class="contact-col">
+        
+    <form action="form-handler.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter email address" required>
+        <input type="text" name="course" placeholder="Enter your course" required>
+        <textarea rows="8" name="message" placeholder="message" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+    </form>
+        
+        
+        
+        </div>
+    </div>
+
+
+</section>
+        
+
+       
+       
+        
+        
+        
+        
+        
+        
+        
+        <!------ Footer ------->
+        <section class="footer">
+        <h4>About Us</h4>
+            <p>Gold's Gym Has Been The Authority In Fitness Since 1965 Dating Back To The Original Gold's Gym In Venice, California. It Was The Place For Serious Fitness. Opened Long Before The Modern Day Health Club Existed, The Original Gold's Gym Featured Homemade Equipment And A Dedication To Getting Results. It Was An Instant Hit. Gold's Gym Quickly Became Known As “The Mecca Of Bodybuilding.<br>In 1977, Gold's Gym Received International Attention When It Was Featured In The Movie Pumping Iron That Starred Arnold Schwarzenegger And Lou Ferrigno. From That First Gym In Venice, Gold's Gym Has Become The Largest Co-Ed Gym Chain In The World With Over 700+ Clubs In 28 Countries. Today, Gold's Gym Has Expanded Its Fitness Profile To Offer All Of The Latest Equipment And Services, Including Group Exercise, Personal Training, Cardiovascular Equipment, Spinning And Yoga, While Maintaining Its Core Weight Lifting Tradition.<br>Gold's Gym Has Become The Preferred Gym Of Celebrities, Athletes, Bodybuilders, The Military And Fitness Enthusiasts All Over The World. Most Importantly, Gold's Gym Continues To Change Lives By Helping People Achieve Their Individual Potential.<br>The Year 2019 Marked The 17th Anniversary Of Gold's Gym India. In These Glorious 17 Years Gold’s Gym Has Cut Out For Itself 150 Gyms In India Across 95+ Cities And A Few More Ready To Start In The Near Future.</p>
+            
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+        </section>
+        
+                
+        
+            
+   <!-----JavaScript for Toggle Menu---->     
+        <script>
+            
+            var navLinks =document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }    
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }    
+            
+</script>
+        
+</body>
+</html>
